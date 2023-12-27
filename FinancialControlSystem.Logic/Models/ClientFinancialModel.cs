@@ -9,6 +9,7 @@ namespace FinancialControlSystem.Logic.Models
 { 
         public class ClientFinancialModel
     {
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Currency { get; set; }
         public decimal Balance { get; set; }
@@ -16,3 +17,4 @@ namespace FinancialControlSystem.Logic.Models
         public ClientFinancialType Type { get; set; }
     }
 }
+  
